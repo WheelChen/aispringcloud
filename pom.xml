@@ -13,8 +13,8 @@
         <module>eurakaclient</module>
         <module>resttemplate</module>
         <module>conmuser</module>
-        <module>zull</module>
         <module>zuul</module>
+        <module>Ribbon</module>
     </modules>
 
     <parent>
