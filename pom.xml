@@ -15,6 +15,7 @@
         <module>conmuser</module>
         <module>zuul</module>
         <module>Ribbon</module>
+        <module>feign</module>
     </modules>
 
     <parent>

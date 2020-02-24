@@ -793,7 +793,7 @@ public class RibbonHandler {
 
 
 
-### Feign
+# P7 Feign
 
 - 什么是 Feign？
 
@@ -805,7 +805,7 @@ public class RibbonHandler {
 
 Ribbon 是一个通用的 HTTP 客户端工具，Feign 是基于 Ribbon 实现的。
 
-- Feign 的tedian
+- Feign 的特点
 
 1、Feign 是一个声明式的 Web Service 客户端。
 
@@ -860,9 +860,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableFeignClients
-public class FeignApplication {
+public class me.wheelchen.FeignApplication {
     public static void main(String[] args) {
-        SpringApplication.run(FeignApplication.class,args);
+        SpringApplication.run(me.wheelchen.FeignApplication.class,args);
     }
 }
 ```
@@ -989,7 +989,9 @@ public interface FeignProviderClient {
 }
 ```
 
-### Hystrix 容错机制
+
+
+# P8 Hystrix 容错机制
 
 在不改变各个微服务调用关系的前提下，针对错误情况进行预先处理。
 
