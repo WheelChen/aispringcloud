@@ -12,6 +12,9 @@
         <module>eurekaserver</module>
         <module>eurakaclient</module>
         <module>resttemplate</module>
+        <module>conmuser</module>
+        <module>zull</module>
+        <module>zuul</module>
     </modules>
 
     <parent>

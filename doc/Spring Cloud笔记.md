@@ -1,4 +1,4 @@
-P1 微服务描述
+# P1 微服务描述
 
 ### 单体应用存在的问题
 
@@ -25,7 +25,9 @@ Spring Cloud 的服务治理使用 Eureka 来实现，Eureka 是 Netflix 开源�
 
 ___
 
-P2 注册中心
+
+
+# P2 注册中心
 
 ### Spring Cloud Eureka
 
@@ -148,7 +150,9 @@ public class EurekaServerApplication {
 
 ___
 
-P3 服务提供
+
+
+# P3 服务提供
 
 ### Eureka Client 代码实现
 
@@ -336,7 +340,9 @@ ___
 
 
 
-### RestTemplate 的使用
+# P4 RestTemplate 的使用
+
+
 
 - 什么是 RestTemplate？
 
@@ -448,7 +454,9 @@ public class RestTemplateApplication {
 }
 ```
 
-### 服务消费者 consumer
+
+
+# P5 服务消费者 consumer
 
 - 创建 Maven 工程，pom.xml
 

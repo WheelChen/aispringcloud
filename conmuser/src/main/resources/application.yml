@@ -1,9 +1,8 @@
 server:
-  port: 8011
+  port: 8020
 spring:
-  # 当前服务注册真心爱Eureka Server的名称
   application:
-    name: provider
+    name: consumer
 eureka:
   client:
     service-url:

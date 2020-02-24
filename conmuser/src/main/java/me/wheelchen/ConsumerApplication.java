@@ -7,16 +7,16 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author Kelvin Chen
- * @date 2019-11-05 22:44:45
+ * @date 2020-02-24 15:51:27
  */
 @SpringBootApplication
-public class RestTemplateApplication {
+public class ConsumerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(RestTemplateApplication.class, args);
+        SpringApplication.run(ConsumerApplication.class, args);
     }
 
     @Bean
-    public RestTemplate restTemplate() {
+    public RestTemplate restTemplate(){
         return new RestTemplate();
     }
 }
