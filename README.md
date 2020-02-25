@@ -15,3 +15,5 @@
 - v7 - Feign声明式接口
 
 - v8 - Hystrix容错机制
+
+- v9 - Spring Cloud 本地配置中心

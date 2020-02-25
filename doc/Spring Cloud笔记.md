@@ -1132,7 +1132,9 @@ public class HystrixHandler {
 - 启动成功之后，访问 `http://localhost:8060/actuator/hystrix.stream` 可以监控到请求数据，
 - 访问 `http://localhost:8060/hystrix`，可以看到可视化的监控界面，输入要监控的地址节点即可看到该节点的可视化数据监控。
 
-### Spring Cloud 配置中心
+
+
+# P9 Spring Cloud 配置中心
 
 Spring Cloud Config，通过服务端可以为多个客户端提供配置服务。Spring Cloud Config 可以将配置文件存储在本地，也可以将配置文件存储在远程 Git 仓库，创建 Config Server，通过它管理所有的配置文件。
 
@@ -1164,7 +1166,7 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/shared
+          search-locations: classpath:/shareds
 ```
 
 > 注解说明
@@ -1217,10 +1219,10 @@ public class NativeConfigServerApplication {
 </dependencies>
 ```
 
-- 创建 bootstrap.yml，配置读取本地配置中心的相关信息。
+- 创建 **bootstrap.yml**，配置读取本地配置中心的相关信息。
 
 ```yaml
-spring:
+spring:S
   application:
     name: configclient
   profiles:
@@ -1282,7 +1284,9 @@ public class NativeConfigHandler {
 }
 ```
 
-### Spring Cloud Config 远程配置
+
+
+### P10 Spring Cloud Config 远程配置
 
 - 创建配置文件，上传至 GitHub
 
@@ -1329,7 +1333,7 @@ spring:
       label: master
 eureka:
   client:
-    serviceUrl:
+    serviceUrl:bl
       defaultZone: http://localhost:8761/eureka/
 ```
 

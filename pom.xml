@@ -17,6 +17,9 @@
         <module>Ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
+        <module>nativeconfigserver</module>
+        <module>nativeconfigclient</module>
+        <module>cloudconfigserver</module>
     </modules>
 
     <parent>
