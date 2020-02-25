@@ -1333,7 +1333,7 @@ spring:
       label: master
 eureka:
   client:
-    serviceUrl:bl
+    serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 ```
 

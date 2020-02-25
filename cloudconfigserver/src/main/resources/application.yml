@@ -1,0 +1,19 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WheelChen/aispringcloud.git
+          searchPaths: config
+          # 可以不需要 如果本地已经有Github token认证
+          # username: root
+          # password: root
+      label: master
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

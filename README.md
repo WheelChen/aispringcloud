@@ -17,3 +17,5 @@
 - v8 - Hystrix容错机制
 
 - v9 - Spring Cloud 本地配置中心
+
+- v10 - Spring Cloud 远程配置中心
