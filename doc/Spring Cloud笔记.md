@@ -1007,7 +1007,7 @@ public interface FeignProviderClient {
 
 5、提供实时的配置修改功能
 
-Hystrix 数据监控需要结合 Spring Boot Actuator 来使用，Actuator 提供了对服务的健康健康、数据统计，可以通过 hystrix.stream 节点获取监控的请求数据，提供了可视化的监控界面。
+Hystrix 数据监控需要结合 Spring Boot Actuator 来使用，Actuator 提供了对服务的健康健康、数据统计，可以通过 *hystrix.stream* 节点获取监控的请求数据，提供了可视化的监控界面。
 
 - 创建 Maven，pom.xml
 
